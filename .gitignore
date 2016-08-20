@@ -1,47 +1,129 @@
-# Windows image file caches
+# Ignore thumbnails created by windows
 Thumbs.db
-ehthumbs.db
+cocos2d/
+ResourcesWorkSpace/
+广点通backup/
+审核资源/
 
-# Folder config file
-Desktop.ini
+# Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.aps
+*.vcproj.*.user
+*.vspscc
+*_i.c
+*.i
+*.icf
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug/
+[Dd]ebug.win32/
+*.sbr
+*.sdf
+obj/
+[Rr]elease/
+[Rr]elease.win32/
+_ReSharper*/
+[Tt]est[Rr]esult*
+ipch/
+*.opensdf
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Ignore files build by ndk and eclipse
+libs/
+bin/
+obj/
+gen/
+assets/
+local.properties
 
-# Windows shortcuts
-*.lnk
 
-# =========================
-# Operating System Files
-# =========================
+# Ignore files built by NaCl
+samples/Cpp/HelloCpp/proj.nacl/Resources/
+samples/Cpp/TestCpp/proj.nacl/Resources/
+samples/Cpp/TestCpp/proj.nacl/out/
+samples/Cpp/SimpleGame/proj.nacl/Resources/
+samples/Lua/HelloLua/proj.nacl/Resources/
+samples/Lua/TestLua/proj.nacl/Resources/
 
-# OSX
-# =========================
 
+# Ignore python compiled files
+*.pyc
+
+
+# Ignore files build by airplay and marmalade
+build_*_xcode/
+build_*_vc10/
+
+
+# Ignore files build by xcode
+*.mode*v*
+*.pbxuser
+*.xcbkptlist
+*.xcworkspacedata
+*.xcuserstate
+*.xccheckout
+xcschememanagement.plist
 .DS_Store
-.AppleDouble
-.LSOverride
+._.*
+xcuserdata/
+DerivedData/
 
-# Thumbnails
-._*
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Ignore files built by AppCode
+.idea/
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+
+# Ignore files built by bada
+.Simulator-Debug/
+.Target-Debug/
+.Target-Release/
+
+
+# Ignore files built by blackberry
+Simulator/
+Device-Debug/
+Device-Release/
+
+
+# Ignore vim swaps
+*.swp
+*.swo
+
+
+# Ignore files created by create_project.py
+projects/
+
+
+# Ignore config files in javascript bindings generator
+tools/tojs/user.cfg
+# ... userconf.ini generated if running from tools/tojs
+tools/tojs/userconf.ini
+tools/tolua/userconf.ini
+# ... userconf.ini generated if running from tools/jenkins_scripts/mac/android/
+tools/jenkins_scripts/mac/android/userconf.ini
+
+
+# CTags
+tags
+
+
+# ignore files, created with make-all-linux-project script
+/lib
+/build/linux-build
+
+
+# Cmake files
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
